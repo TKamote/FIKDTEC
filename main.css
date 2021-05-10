@@ -436,7 +436,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     width: 100%;
-    height: 180px;
+    min-height: 180px;
     color: #fff;
     box-sizing: border-box;
     padding: 30px;
@@ -448,6 +448,7 @@ body {
     body .qualifications img.biz {
       filter: invert(10%);
       width: 200px;
+      padding: 15px;
       border-radius: 8px; }
     body .qualifications div {
       display: flex;
@@ -553,6 +554,9 @@ body {
       color: #0a0a0a;
       background-color: blanchedalmond;
       font-size: 1.1rem; }
+      body .container .front-page .front-body img {
+        width: 60%;
+      }
   body .container .about {
     flex-direction: column; }
     body .container .about .about-bg {
@@ -580,4 +584,10 @@ body {
     body .container .contact .contact-left {
       max-width: 400px; }
     body .container .contact .contact-right {
-      max-width: 400px; } }
+      max-width: 400px; } 
+    body .container .qualifications {
+        flex-direction: column;
+      }
+      body .container .certifications {
+        flex-direction: column;
+      }}
